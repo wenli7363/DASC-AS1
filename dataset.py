@@ -45,14 +45,25 @@ def add_preprocessing(dataset, processor) -> DatasetDict | Dataset | IterableDat
     For example, you can add data augmentation, normalization or formatting to meet the model input, etc.
 
     Hint:
-    You can use the `with_transform` method of the dataset to apply transformations.
-    Ref: https://huggingface.co/docs/datasets/v3.2.0/en/package_reference/main_classes#datasets.Dataset.with_transform
+    # You can use the `with_transform` method of the dataset to apply transformations.
+    # Ref: https://huggingface.co/docs/datasets/v3.2.0/en/package_reference/main_classes#datasets.Dataset.with_transform
 
-    You can also use the `map` method of the dataset to apply transformations.
-    Ref: https://huggingface.co/docs/datasets/v3.2.0/en/package_reference/main_classes#datasets.Dataset.map
+    # You can also use the `map` method of the dataset to apply transformations.
+    # Ref: https://huggingface.co/docs/datasets/v3.2.0/en/package_reference/main_classes#datasets.Dataset.map
 
-    For Augmentation, you can use the `albumentations` library.
-    Ref: https://albumentations.ai/docs/
+    # For Augmentation, you can use the `albumentations` library.
+    # Ref: https://albumentations.ai/docs/
+
+    from functools import partial
+
+    # Create the batch transform functions for training and validation sets
+    train_transform_batch = # Callable for train set transforming with batched samples passed
+    validation_transform_batch = # Callable for val/test set transforming with batched samples passed
+
+    # Apply transformations to dataset splits
+    dataset["train"] = dataset["train"].with_transform(train_transform_batch)
+    dataset["validation"] = dataset["validation"].with_transform(validation_transform_batch)
+    dataset["test"] = dataset["test"].with_transform(validation_transform_batch)
     """
     # Write your code here.
     return dataset
