@@ -48,7 +48,7 @@ In this assignment, you will explore object detection using state-of-the-art mod
 
 * **Understand the Basics:** Learn how object detection models operate in the context of this assignment.
 * **Get Hands-On:** Preprocess image data, including annotation handling and image augmentation.
-* **Build and Train:** Fine-tune a model (e.g., DINO, DETR, YOLO, or others) on the basic DocLayNet dataset.
+* **Build and Train:** Fine-tune a model (e.g., DINO, DETR, YOLO, or others) on the basic CPPE-5 dataset.
 * **Evaluate and Analyze:** Assess your model’s performance using standard metrics like **mAP (mean Average Precision)** and analyze its strengths and weaknesses.
 * **Become an Object Detection Expert:** Gain a deeper understanding of the challenges in object detection and strategies for improvement.
 
