@@ -6,6 +6,7 @@ from model import initialize_model, initialize_processor
 from trainer import build_trainer
 from utils import not_change_test_dataset
 from pprint import pprint
+from utils import set_random_seeds
 
 # Configuration Constants
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
@@ -15,6 +16,8 @@ def main():
     """
     Main function to execute model training and evaluation.
     """
+    # Set seed for reproducibility
+    set_random_seeds()
 
     # Build the dataset
     raw_datasets = build_dataset()
