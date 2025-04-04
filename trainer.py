@@ -36,6 +36,10 @@ def create_training_arguments() -> TrainingArguments:
         remove_unused_columns=False,  # Don't remove columns like 'image' (important for data)
         eval_do_concat_batches=False,  # Ensure proper evaluation when batches are not concatenated
         push_to_hub=False,  # Whether to push the model to the Hub
+
+        logging_dir=OUTPUT_DIR,  # Directory for logging
+        logging_steps=10,  # Log every 100 steps
+        logging_strategy="steps",  # Log strategy
     )
 
     return training_args
