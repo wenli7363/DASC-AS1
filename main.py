@@ -1,5 +1,6 @@
 import os
 import time
+import sys
 
 from dataset import build_dataset, add_preprocessing
 from model import initialize_model, initialize_processor
@@ -19,6 +20,9 @@ def main():
     """
     Main function to execute model training and evaluation.
     """
+
+    log_file = open('training.log', 'w')
+    sys.stdout = log_file
     # Set seed for reproducibility
     set_random_seeds()
 
@@ -64,6 +68,10 @@ def main():
         metric_key_prefix="test",
     )
     pprint(test_metrics)
+
+    # 恢复标准输出
+    sys.stdout = sys.__stdout__
+    log_file.close()
 
 
 if __name__ == "__main__":
