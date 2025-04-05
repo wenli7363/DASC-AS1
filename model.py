@@ -1,5 +1,5 @@
 from transformers import AutoModelForObjectDetection, AutoImageProcessor
-from constants import ID2LABEL as ID_TO_LABEL, LABEL2ID as LABEL_TO_ID, MODEL_NAME
+from constants import ID2LABEL as ID_TO_LABEL, LABEL2ID as LABEL_TO_ID
 
 def initialize_model():
     """

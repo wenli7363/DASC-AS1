@@ -1,5 +1,5 @@
 import torch
-from transformers import DetrImageProcessor, Trainer, TrainingArguments
+from transformers import Trainer, TrainingArguments
 
 from constants import OUTPUT_DIR, ID2LABEL
 from evaluate import compute_metrics

@@ -1,6 +1,5 @@
-from datasets import Dataset, DatasetDict, IterableDataset, IterableDatasetDict
+from datasets import Dataset, DatasetDict
 from datasets import load_dataset
-from transformers import AutoImageProcessor
 from PIL import Image
 import torch
 import numpy as np
