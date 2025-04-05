@@ -19,11 +19,11 @@ def create_training_arguments() -> TrainingArguments:
     """
     training_args = TrainingArguments(
         output_dir=OUTPUT_DIR,  # Where to save the model checkpoints
-        num_train_epochs=2,  # Adjust number of epochs as needed
+        num_train_epochs=50,  # Adjust number of epochs as needed
         fp16=False,  # Use mixed precision if you have a supported GPU (set to True for faster training)
         per_device_train_batch_size=8,  # Batch size for training
         dataloader_num_workers=4,  # Number of worker processes for data loading
-        learning_rate=1e-3,  # Learning rate for fine-tuning
+        learning_rate=5e-5,  # Learning rate for fine-tuning
         lr_scheduler_type="cosine",  # Type of learning rate scheduler
         weight_decay=1e-4,  # Weight decay to avoid overfitting
         max_grad_norm=0.1,  # Gradient clipping to avoid exploding gradients
@@ -38,7 +38,7 @@ def create_training_arguments() -> TrainingArguments:
         push_to_hub=False,  # Whether to push the model to the Hub
 
         logging_dir=OUTPUT_DIR,  # Directory for logging
-        logging_steps=2,  # Log every 100 steps
+        logging_steps=10,  # Log every 100 steps
         logging_strategy="steps",  # Log strategy
     )
 

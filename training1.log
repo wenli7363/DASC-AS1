@@ -1,0 +1,478 @@
+loading raw_datasets successfully
+
+Processing train split with 836 samples:
+Finished processing train split.
+
+Processing test split with 29 samples:
+Finished processing test split.
+
+Processing validation split with 148 samples:
+Finished processing validation split.
+{'loss': 4.5143, 'grad_norm': 17.25575828552246, 'learning_rate': 0.0009999977619961364, 'epoch': 0.1}
+{'loss': 3.3242, 'grad_norm': 25.21160125732422, 'learning_rate': 0.0009999910480045803, 'epoch': 0.19}
+{'loss': 3.6755, 'grad_norm': 21.928085327148438, 'learning_rate': 0.0009999798580854356, 'epoch': 0.29}
+{'loss': 3.2652, 'grad_norm': 14.305225372314453, 'learning_rate': 0.0009999641923388743, 'epoch': 0.38}
+{'loss': 2.9554, 'grad_norm': 15.852505683898926, 'learning_rate': 0.0009999440509051367, 'epoch': 0.48}
+{'loss': 3.5592, 'grad_norm': 29.79214859008789, 'learning_rate': 0.0009999194339645292, 'epoch': 0.57}
+{'loss': 3.4391, 'grad_norm': 16.756837844848633, 'learning_rate': 0.0009998903417374227, 'epoch': 0.67}
+{'loss': 3.2907, 'grad_norm': 31.864171981811523, 'learning_rate': 0.0009998567744842518, 'epoch': 0.76}
+{'loss': 4.5342, 'grad_norm': 20.486434936523438, 'learning_rate': 0.0009998187325055106, 'epoch': 0.86}
+{'loss': 4.9674, 'grad_norm': 14.641141891479492, 'learning_rate': 0.0009997762161417516, 'epoch': 0.95}
+{'eval_loss': 6.341570854187012, 'eval_map': 0.0002, 'eval_map_50': 0.001, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0002, 'eval_mar_1': 0.0051, 'eval_mar_10': 0.0053, 'eval_mar_100': 0.0054, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0063, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0009, 'eval_mar_100_Mask': 0.0269, 'eval_runtime': 7.7203, 'eval_samples_per_second': 19.17, 'eval_steps_per_second': 2.461, 'epoch': 1.0}
+{'loss': 4.0177, 'grad_norm': 24.391605377197266, 'learning_rate': 0.000999729225773582, 'epoch': 1.05}
+{'loss': 3.8925, 'grad_norm': 15.72121524810791, 'learning_rate': 0.0009996777618216607, 'epoch': 1.14}
+{'loss': 3.5344, 'grad_norm': 23.974773406982422, 'learning_rate': 0.0009996218247466933, 'epoch': 1.24}
+{'loss': 3.217, 'grad_norm': 18.865253448486328, 'learning_rate': 0.0009995614150494292, 'epoch': 1.33}
+{'loss': 3.1813, 'grad_norm': 23.97294044494629, 'learning_rate': 0.0009994965332706573, 'epoch': 1.43}
+{'loss': 3.2219, 'grad_norm': 36.05454635620117, 'learning_rate': 0.0009994271799912003, 'epoch': 1.52}
+{'loss': 3.984, 'grad_norm': 44.82616424560547, 'learning_rate': 0.0009993533558319096, 'epoch': 1.62}
+{'loss': 3.5516, 'grad_norm': 27.519216537475586, 'learning_rate': 0.0009992750614536605, 'epoch': 1.71}
+{'loss': 3.2807, 'grad_norm': 13.634456634521484, 'learning_rate': 0.0009991922975573454, 'epoch': 1.81}
+{'loss': 3.9706, 'grad_norm': 14.42992877960205, 'learning_rate': 0.0009991050648838675, 'epoch': 1.9}
+{'loss': 3.8, 'grad_norm': 19.143321990966797, 'learning_rate': 0.0009990133642141358, 'epoch': 2.0}
+{'eval_loss': 6.547998905181885, 'eval_map': 0.0007, 'eval_map_50': 0.0029, 'eval_map_75': 0.0003, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.001, 'eval_mar_1': 0.0084, 'eval_mar_10': 0.0098, 'eval_mar_100': 0.0098, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0019, 'eval_mar_large': 0.0111, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0037, 'eval_mar_100_Mask': 0.0489, 'eval_runtime': 6.8536, 'eval_samples_per_second': 21.594, 'eval_steps_per_second': 2.772, 'epoch': 2.0}
+{'loss': 3.5397, 'grad_norm': 31.164304733276367, 'learning_rate': 0.0009989171963690556, 'epoch': 2.1}
+{'loss': 5.2733, 'grad_norm': 43.65118408203125, 'learning_rate': 0.0009988165622095233, 'epoch': 2.19}
+{'loss': 4.1404, 'grad_norm': 17.622358322143555, 'learning_rate': 0.000998711462636417, 'epoch': 2.29}
+{'loss': 3.7474, 'grad_norm': 13.12375545501709, 'learning_rate': 0.00099860189859059, 'epoch': 2.38}
+{'loss': 3.3282, 'grad_norm': 9.690616607666016, 'learning_rate': 0.0009984878710528615, 'epoch': 2.48}
+{'loss': 3.9269, 'grad_norm': 21.475587844848633, 'learning_rate': 0.0009983693810440074, 'epoch': 2.57}
+{'loss': 3.922, 'grad_norm': 21.2878475189209, 'learning_rate': 0.0009982464296247522, 'epoch': 2.67}
+{'loss': 4.2597, 'grad_norm': 10.494253158569336, 'learning_rate': 0.0009981190178957589, 'epoch': 2.76}
+{'loss': 5.4047, 'grad_norm': 18.2347354888916, 'learning_rate': 0.0009979871469976197, 'epoch': 2.86}
+{'loss': 4.0348, 'grad_norm': 11.401165008544922, 'learning_rate': 0.000997850818110844, 'epoch': 2.95}
+{'eval_loss': 7.4111857414245605, 'eval_map': 0.0, 'eval_map_50': 0.0001, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0001, 'eval_mar_1': 0.0009, 'eval_mar_10': 0.0009, 'eval_mar_100': 0.0009, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0009, 'eval_map_Coverall': 0.0002, 'eval_mar_100_Coverall': 0.0047, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.356, 'eval_samples_per_second': 20.12, 'eval_steps_per_second': 2.583, 'epoch': 3.0}
+{'loss': 3.4421, 'grad_norm': 11.792990684509277, 'learning_rate': 0.0009977100324558511, 'epoch': 3.05}
+{'loss': 3.396, 'grad_norm': 15.613204956054688, 'learning_rate': 0.0009975647912929557, 'epoch': 3.14}
+{'loss': 3.398, 'grad_norm': 13.456693649291992, 'learning_rate': 0.0009974150959223592, 'epoch': 3.24}
+{'loss': 4.0097, 'grad_norm': 24.933670043945312, 'learning_rate': 0.0009972609476841367, 'epoch': 3.33}
+{'loss': 4.1931, 'grad_norm': 10.155648231506348, 'learning_rate': 0.0009971023479582257, 'epoch': 3.43}
+{'loss': 3.7903, 'grad_norm': 17.335285186767578, 'learning_rate': 0.0009969392981644136, 'epoch': 3.52}
+{'loss': 4.2018, 'grad_norm': 19.6644287109375, 'learning_rate': 0.0009967717997623245, 'epoch': 3.62}
+{'loss': 3.5942, 'grad_norm': 17.223155975341797, 'learning_rate': 0.0009965998542514065, 'epoch': 3.71}
+{'loss': 3.6641, 'grad_norm': 9.943344116210938, 'learning_rate': 0.0009964234631709187, 'epoch': 3.81}
+{'loss': 3.7684, 'grad_norm': 7.32003927230835, 'learning_rate': 0.0009962426280999167, 'epoch': 3.9}
+{'loss': 3.8946, 'grad_norm': 41.29004669189453, 'learning_rate': 0.000996057350657239, 'epoch': 4.0}
+{'eval_loss': 7.889272212982178, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0025, 'eval_mar_10': 0.0025, 'eval_mar_100': 0.0025, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0052, 'eval_mar_large': 0.002, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0123, 'eval_runtime': 7.1879, 'eval_samples_per_second': 20.59, 'eval_steps_per_second': 2.643, 'epoch': 4.0}
+{'loss': 3.7064, 'grad_norm': 18.45454978942871, 'learning_rate': 0.0009958676325014918, 'epoch': 4.1}
+{'loss': 3.5325, 'grad_norm': 7.917943000793457, 'learning_rate': 0.0009956734753310353, 'epoch': 4.19}
+{'loss': 3.1052, 'grad_norm': 10.731888771057129, 'learning_rate': 0.0009954748808839674, 'epoch': 4.29}
+{'loss': 2.9374, 'grad_norm': 8.628615379333496, 'learning_rate': 0.0009952718509381087, 'epoch': 4.38}
+{'loss': 3.6801, 'grad_norm': 14.108802795410156, 'learning_rate': 0.0009950643873109862, 'epoch': 4.48}
+{'loss': 3.0445, 'grad_norm': 16.37947654724121, 'learning_rate': 0.0009948524918598175, 'epoch': 4.57}
+{'loss': 3.6817, 'grad_norm': 13.455509185791016, 'learning_rate': 0.0009946361664814943, 'epoch': 4.67}
+{'loss': 3.1901, 'grad_norm': 10.694936752319336, 'learning_rate': 0.0009944154131125641, 'epoch': 4.76}
+{'loss': 3.294, 'grad_norm': 13.565252304077148, 'learning_rate': 0.0009941902337292155, 'epoch': 4.86}
+{'loss': 3.8042, 'grad_norm': 17.05320167541504, 'learning_rate': 0.0009939606303472567, 'epoch': 4.95}
+{'eval_loss': 6.847111225128174, 'eval_map': 0.0, 'eval_map_50': 0.0001, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.002, 'eval_mar_10': 0.0024, 'eval_mar_100': 0.0024, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0027, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0001, 'eval_mar_100_Gloves': 0.0118, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.3716, 'eval_samples_per_second': 20.077, 'eval_steps_per_second': 2.577, 'epoch': 5.0}
+{'loss': 3.6819, 'grad_norm': 12.457077026367188, 'learning_rate': 0.0009937266050221015, 'epoch': 5.05}
+{'loss': 3.296, 'grad_norm': 5.185440540313721, 'learning_rate': 0.0009934881598487478, 'epoch': 5.14}
+{'loss': 3.0834, 'grad_norm': 9.892221450805664, 'learning_rate': 0.0009932452969617608, 'epoch': 5.24}
+{'loss': 3.2845, 'grad_norm': 9.530411720275879, 'learning_rate': 0.0009929980185352525, 'epoch': 5.33}
+{'loss': 3.2369, 'grad_norm': 9.432621002197266, 'learning_rate': 0.0009927463267828634, 'epoch': 5.43}
+{'loss': 2.9421, 'grad_norm': 13.342495918273926, 'learning_rate': 0.0009924902239577418, 'epoch': 5.52}
+{'loss': 3.1308, 'grad_norm': 10.757770538330078, 'learning_rate': 0.0009922297123525243, 'epoch': 5.62}
+{'loss': 3.0769, 'grad_norm': 21.188255310058594, 'learning_rate': 0.0009919647942993148, 'epoch': 5.71}
+{'loss': 3.1565, 'grad_norm': 15.835500717163086, 'learning_rate': 0.0009916954721696637, 'epoch': 5.81}
+{'loss': 2.978, 'grad_norm': 12.65631103515625, 'learning_rate': 0.0009914217483745472, 'epoch': 5.9}
+{'loss': 3.3526, 'grad_norm': 15.883238792419434, 'learning_rate': 0.0009911436253643444, 'epoch': 6.0}
+{'eval_loss': 10.92349624633789, 'eval_map': 0.001, 'eval_map_50': 0.002, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.001, 'eval_mar_1': 0.0005, 'eval_mar_10': 0.0005, 'eval_mar_100': 0.0005, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0005, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.005, 'eval_mar_100_Gloves': 0.0023, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 6.8215, 'eval_samples_per_second': 21.696, 'eval_steps_per_second': 2.785, 'epoch': 6.0}
+{'loss': 3.3249, 'grad_norm': 19.17496109008789, 'learning_rate': 0.000990861105628817, 'epoch': 6.1}
+{'loss': 3.3912, 'grad_norm': 9.682929992675781, 'learning_rate': 0.0009905741916970863, 'epoch': 6.19}
+{'loss': 2.8808, 'grad_norm': 9.082674980163574, 'learning_rate': 0.00099028288613761, 'epoch': 6.29}
+{'loss': 2.9668, 'grad_norm': 14.619318008422852, 'learning_rate': 0.00098998719155816, 'epoch': 6.38}
+{'loss': 3.1721, 'grad_norm': 9.895384788513184, 'learning_rate': 0.0009896871106057988, 'epoch': 6.48}
+{'loss': 3.463, 'grad_norm': 13.51998519897461, 'learning_rate': 0.0009893826459668558, 'epoch': 6.57}
+{'loss': 3.3561, 'grad_norm': 12.593159675598145, 'learning_rate': 0.0009890738003669028, 'epoch': 6.67}
+{'loss': 3.5394, 'grad_norm': 9.09451961517334, 'learning_rate': 0.0009887605765707308, 'epoch': 6.76}
+{'loss': 3.2118, 'grad_norm': 14.565173149108887, 'learning_rate': 0.000988442977382324, 'epoch': 6.86}
+{'loss': 2.9921, 'grad_norm': 14.335927963256836, 'learning_rate': 0.0009881210056448349, 'epoch': 6.95}
+{'eval_loss': 7.280777454376221, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0014, 'eval_mar_10': 0.0016, 'eval_mar_100': 0.0016, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0008, 'eval_mar_large': 0.0017, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0081, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.2496, 'eval_samples_per_second': 20.415, 'eval_steps_per_second': 2.621, 'epoch': 7.0}
+{'loss': 3.0738, 'grad_norm': 9.847437858581543, 'learning_rate': 0.0009877946642405596, 'epoch': 7.05}
+{'loss': 2.833, 'grad_norm': 14.328132629394531, 'learning_rate': 0.0009874639560909118, 'epoch': 7.14}
+{'loss': 3.1451, 'grad_norm': 9.547075271606445, 'learning_rate': 0.0009871288841563955, 'epoch': 7.24}
+{'loss': 3.0152, 'grad_norm': 13.794046401977539, 'learning_rate': 0.0009867894514365802, 'epoch': 7.33}
+{'loss': 3.0736, 'grad_norm': 12.10088062286377, 'learning_rate': 0.0009864456609700726, 'epoch': 7.43}
+{'loss': 2.7604, 'grad_norm': 9.26816463470459, 'learning_rate': 0.0009860975158344902, 'epoch': 7.52}
+{'loss': 2.9789, 'grad_norm': 12.39677906036377, 'learning_rate': 0.0009857450191464337, 'epoch': 7.62}
+{'loss': 3.1105, 'grad_norm': 13.526429176330566, 'learning_rate': 0.000985388174061459, 'epoch': 7.71}
+{'loss': 2.7792, 'grad_norm': 11.599111557006836, 'learning_rate': 0.000985026983774049, 'epoch': 7.81}
+{'loss': 2.8389, 'grad_norm': 11.29415225982666, 'learning_rate': 0.0009846614515175843, 'epoch': 7.9}
+{'loss': 2.7544, 'grad_norm': 9.380899429321289, 'learning_rate': 0.0009842915805643156, 'epoch': 8.0}
+{'eval_loss': 7.316477298736572, 'eval_map': 0.0, 'eval_map_50': 0.0001, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0009, 'eval_mar_10': 0.0009, 'eval_mar_100': 0.0009, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.001, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0002, 'eval_mar_100_Gloves': 0.0045, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.3992, 'eval_samples_per_second': 20.002, 'eval_steps_per_second': 2.568, 'epoch': 8.0}
+{'loss': 2.8137, 'grad_norm': 8.328812599182129, 'learning_rate': 0.0009839173742253334, 'epoch': 8.1}
+{'loss': 2.7781, 'grad_norm': 11.225790023803711, 'learning_rate': 0.0009835388358505383, 'epoch': 8.19}
+{'loss': 3.1664, 'grad_norm': 10.984042167663574, 'learning_rate': 0.000983155968828612, 'epoch': 8.29}
+{'loss': 3.3728, 'grad_norm': 18.242368698120117, 'learning_rate': 0.0009827687765869859, 'epoch': 8.38}
+{'loss': 3.1342, 'grad_norm': 8.034465789794922, 'learning_rate': 0.0009823772625918111, 'epoch': 8.48}
+{'loss': 3.0525, 'grad_norm': 10.730165481567383, 'learning_rate': 0.0009819814303479266, 'epoch': 8.57}
+{'loss': 2.9182, 'grad_norm': 13.65328311920166, 'learning_rate': 0.0009815812833988292, 'epoch': 8.67}
+{'loss': 2.8553, 'grad_norm': 17.442121505737305, 'learning_rate': 0.00098117682532664, 'epoch': 8.76}
+{'loss': 3.2412, 'grad_norm': 7.555788993835449, 'learning_rate': 0.0009807680597520745, 'epoch': 8.86}
+{'loss': 2.7965, 'grad_norm': 8.900425910949707, 'learning_rate': 0.000980354990334408, 'epoch': 8.95}
+{'eval_loss': 8.949978828430176, 'eval_map': 0.0, 'eval_map_50': 0.0001, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.001, 'eval_map_large': 0.0, 'eval_mar_1': 0.0003, 'eval_mar_10': 0.0003, 'eval_mar_100': 0.0003, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0008, 'eval_mar_large': 0.0002, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0014, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.16, 'eval_samples_per_second': 20.67, 'eval_steps_per_second': 2.654, 'epoch': 9.0}
+{'loss': 2.9434, 'grad_norm': 13.122994422912598, 'learning_rate': 0.0009799376207714446, 'epoch': 9.05}
+{'loss': 2.7329, 'grad_norm': 9.311407089233398, 'learning_rate': 0.0009795159547994828, 'epoch': 9.14}
+{'loss': 2.6902, 'grad_norm': 14.866788864135742, 'learning_rate': 0.0009790899961932833, 'epoch': 9.24}
+{'loss': 2.7537, 'grad_norm': 9.195719718933105, 'learning_rate': 0.0009786597487660335, 'epoch': 9.33}
+{'loss': 3.0141, 'grad_norm': 13.505168914794922, 'learning_rate': 0.0009782252163693158, 'epoch': 9.43}
+{'loss': 2.8032, 'grad_norm': 10.343513488769531, 'learning_rate': 0.0009777864028930705, 'epoch': 9.52}
+{'loss': 3.1141, 'grad_norm': 11.345078468322754, 'learning_rate': 0.0009773433122655625, 'epoch': 9.62}
+{'loss': 3.4811, 'grad_norm': 8.331470489501953, 'learning_rate': 0.000976895948453346, 'epoch': 9.71}
+{'loss': 3.1455, 'grad_norm': 16.024866104125977, 'learning_rate': 0.000976444315461229, 'epoch': 9.81}
+{'loss': 2.8741, 'grad_norm': 25.320932388305664, 'learning_rate': 0.0009759884173322369, 'epoch': 9.9}
+{'loss': 3.5774, 'grad_norm': 27.888568878173828, 'learning_rate': 0.0009755282581475768, 'epoch': 10.0}
+{'eval_loss': 8.602301597595215, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0005, 'eval_mar_10': 0.0005, 'eval_mar_100': 0.0005, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0005, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0023, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.5357, 'eval_samples_per_second': 19.64, 'eval_steps_per_second': 2.521, 'epoch': 10.0}
+{'loss': 3.9946, 'grad_norm': 8.032907485961914, 'learning_rate': 0.0009750638420266008, 'epoch': 10.1}
+{'loss': 3.8609, 'grad_norm': 11.850716590881348, 'learning_rate': 0.0009745951731267692, 'epoch': 10.19}
+{'loss': 3.357, 'grad_norm': 13.230433464050293, 'learning_rate': 0.0009741222556436132, 'epoch': 10.29}
+{'loss': 2.7738, 'grad_norm': 14.208126068115234, 'learning_rate': 0.0009736450938106976, 'epoch': 10.38}
+{'loss': 2.7597, 'grad_norm': 9.566226959228516, 'learning_rate': 0.0009731636918995821, 'epoch': 10.48}
+{'loss': 2.9158, 'grad_norm': 16.236787796020508, 'learning_rate': 0.0009726780542197844, 'epoch': 10.57}
+{'loss': 3.0551, 'grad_norm': 8.357510566711426, 'learning_rate': 0.0009721881851187406, 'epoch': 10.67}
+{'loss': 3.3957, 'grad_norm': 12.094985008239746, 'learning_rate': 0.0009716940889817661, 'epoch': 10.76}
+{'loss': 3.1113, 'grad_norm': 13.37302017211914, 'learning_rate': 0.0009711957702320175, 'epoch': 10.86}
+{'loss': 3.1645, 'grad_norm': 10.188268661499023, 'learning_rate': 0.0009706932333304517, 'epoch': 10.95}
+{'eval_loss': 9.23871898651123, 'eval_map': 0.0, 'eval_map_50': 0.0001, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0009, 'eval_mar_10': 0.0009, 'eval_mar_100': 0.0009, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0008, 'eval_mar_large': 0.0009, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0001, 'eval_mar_100_Gloves': 0.0045, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.0991, 'eval_samples_per_second': 20.848, 'eval_steps_per_second': 2.676, 'epoch': 11.0}
+{'loss': 2.9522, 'grad_norm': 19.852161407470703, 'learning_rate': 0.0009701864827757868, 'epoch': 11.05}
+{'loss': 3.2452, 'grad_norm': 20.715839385986328, 'learning_rate': 0.0009696755231044618, 'epoch': 11.14}
+{'loss': 2.9469, 'grad_norm': 13.860151290893555, 'learning_rate': 0.0009691603588905955, 'epoch': 11.24}
+{'loss': 2.7622, 'grad_norm': 11.898645401000977, 'learning_rate': 0.0009686409947459458, 'epoch': 11.33}
+{'loss': 3.143, 'grad_norm': 10.36644458770752, 'learning_rate': 0.0009681174353198686, 'epoch': 11.43}
+{'loss': 2.8526, 'grad_norm': 9.652680397033691, 'learning_rate': 0.000967589685299276, 'epoch': 11.52}
+{'loss': 2.989, 'grad_norm': 26.959962844848633, 'learning_rate': 0.0009670577494085944, 'epoch': 11.62}
+{'loss': 2.9082, 'grad_norm': 8.255345344543457, 'learning_rate': 0.0009665216324097222, 'epoch': 11.71}
+{'loss': 3.1698, 'grad_norm': 6.730332374572754, 'learning_rate': 0.0009659813391019867, 'epoch': 11.81}
+{'loss': 2.9719, 'grad_norm': 20.052658081054688, 'learning_rate': 0.0009654368743221021, 'epoch': 11.9}
+{'loss': 2.9333, 'grad_norm': 21.9890193939209, 'learning_rate': 0.0009648882429441257, 'epoch': 12.0}
+{'eval_loss': 9.382137298583984, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0191, 'eval_map_medium': 0.0001, 'eval_map_large': 0.0, 'eval_mar_1': 0.0015, 'eval_mar_10': 0.0015, 'eval_mar_100': 0.0015, 'eval_mar_small': 0.2, 'eval_mar_medium': 0.0071, 'eval_mar_large': 0.0001, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0073, 'eval_runtime': 7.0495, 'eval_samples_per_second': 20.994, 'eval_steps_per_second': 2.695, 'epoch': 12.0}
+{'loss': 2.8958, 'grad_norm': 7.49265718460083, 'learning_rate': 0.0009643354498794139, 'epoch': 12.1}
+{'loss': 2.804, 'grad_norm': 6.694021701812744, 'learning_rate': 0.0009637785000765789, 'epoch': 12.19}
+{'loss': 3.1963, 'grad_norm': 13.181001663208008, 'learning_rate': 0.0009632173985214438, 'epoch': 12.29}
+{'loss': 2.8008, 'grad_norm': 7.600764751434326, 'learning_rate': 0.0009626521502369983, 'epoch': 12.38}
+{'loss': 2.893, 'grad_norm': 9.959407806396484, 'learning_rate': 0.0009620827602833541, 'epoch': 12.48}
+{'loss': 2.8138, 'grad_norm': 10.850411415100098, 'learning_rate': 0.0009615092337576987, 'epoch': 12.57}
+{'loss': 2.7618, 'grad_norm': 37.124568939208984, 'learning_rate': 0.0009609315757942503, 'epoch': 12.67}
+{'loss': 2.8026, 'grad_norm': 9.302425384521484, 'learning_rate': 0.0009603497915642121, 'epoch': 12.76}
+{'loss': 2.8017, 'grad_norm': 9.5609130859375, 'learning_rate': 0.0009597638862757254, 'epoch': 12.86}
+{'loss': 2.9795, 'grad_norm': 13.71475601196289, 'learning_rate': 0.0009591738651738233, 'epoch': 12.95}
+{'eval_loss': 6.780714988708496, 'eval_map': 0.0, 'eval_map_50': 0.0001, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0052, 'eval_mar_10': 0.0055, 'eval_mar_100': 0.0055, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0063, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0001, 'eval_mar_100_Gloves': 0.0276, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.2715, 'eval_samples_per_second': 20.353, 'eval_steps_per_second': 2.613, 'epoch': 13.0}
+{'loss': 2.9715, 'grad_norm': 9.995879173278809, 'learning_rate': 0.0009585797335403842, 'epoch': 13.05}
+{'loss': 3.0879, 'grad_norm': 13.599596977233887, 'learning_rate': 0.0009579814966940833, 'epoch': 13.14}
+{'loss': 2.9205, 'grad_norm': 12.986909866333008, 'learning_rate': 0.0009573791599903463, 'epoch': 13.24}
+{'loss': 3.1226, 'grad_norm': 14.612885475158691, 'learning_rate': 0.0009567727288213005, 'epoch': 13.33}
+{'loss': 2.8852, 'grad_norm': 15.531449317932129, 'learning_rate': 0.0009561622086157272, 'epoch': 13.43}
+{'loss': 3.5422, 'grad_norm': 9.304691314697266, 'learning_rate': 0.0009555476048390128, 'epoch': 13.52}
+{'loss': 3.0592, 'grad_norm': 13.55888843536377, 'learning_rate': 0.0009549289229930997, 'epoch': 13.62}
+{'loss': 3.1587, 'grad_norm': 11.074565887451172, 'learning_rate': 0.0009543061686164373, 'epoch': 13.71}
+{'loss': 3.0589, 'grad_norm': 21.680980682373047, 'learning_rate': 0.0009536793472839324, 'epoch': 13.81}
+{'loss': 2.8103, 'grad_norm': 65.53936767578125, 'learning_rate': 0.0009530484646068996, 'epoch': 13.9}
+{'loss': 2.9597, 'grad_norm': 11.007471084594727, 'learning_rate': 0.0009524135262330098, 'epoch': 14.0}
+{'eval_loss': 7.888567924499512, 'eval_map': 0.0001, 'eval_map_50': 0.0006, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0002, 'eval_mar_1': 0.0039, 'eval_mar_10': 0.0042, 'eval_mar_100': 0.0042, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0047, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0007, 'eval_mar_100_Gloves': 0.0208, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.0357, 'eval_samples_per_second': 21.036, 'eval_steps_per_second': 2.701, 'epoch': 14.0}
+{'loss': 2.8112, 'grad_norm': 22.775957107543945, 'learning_rate': 0.0009517745378462416, 'epoch': 14.1}
+{'loss': 3.0143, 'grad_norm': 21.82567024230957, 'learning_rate': 0.0009511315051668286, 'epoch': 14.19}
+{'loss': 3.1351, 'grad_norm': 7.078468322753906, 'learning_rate': 0.0009504844339512095, 'epoch': 14.29}
+{'loss': 3.1261, 'grad_norm': 10.563821792602539, 'learning_rate': 0.0009498333299919759, 'epoch': 14.38}
+{'loss': 2.8304, 'grad_norm': 17.118879318237305, 'learning_rate': 0.0009491781991178202, 'epoch': 14.48}
+{'loss': 3.3538, 'grad_norm': 28.95349884033203, 'learning_rate': 0.0009485190471934844, 'epoch': 14.57}
+{'loss': 2.9831, 'grad_norm': 30.685626983642578, 'learning_rate': 0.0009478558801197064, 'epoch': 14.67}
+{'loss': 3.1225, 'grad_norm': 13.034074783325195, 'learning_rate': 0.0009471887038331685, 'epoch': 14.76}
+{'loss': 2.9417, 'grad_norm': 22.31450080871582, 'learning_rate': 0.0009465175243064428, 'epoch': 14.86}
+{'loss': 3.0619, 'grad_norm': 18.09952163696289, 'learning_rate': 0.0009458423475479388, 'epoch': 14.95}
+{'eval_loss': 8.852408409118652, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0005, 'eval_mar_10': 0.0005, 'eval_mar_100': 0.0005, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0006, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0027, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.1598, 'eval_samples_per_second': 20.671, 'eval_steps_per_second': 2.654, 'epoch': 15.0}
+{'loss': 3.1654, 'grad_norm': 11.225074768066406, 'learning_rate': 0.0009451631796018494, 'epoch': 15.05}
+{'loss': 2.8751, 'grad_norm': 9.83797550201416, 'learning_rate': 0.0009444800265480967, 'epoch': 15.14}
+{'loss': 2.8025, 'grad_norm': 17.291183471679688, 'learning_rate': 0.0009437928945022771, 'epoch': 15.24}
+{'loss': 2.9417, 'grad_norm': 9.975808143615723, 'learning_rate': 0.0009431017896156073, 'epoch': 15.33}
+{'loss': 2.8834, 'grad_norm': 10.131714820861816, 'learning_rate': 0.0009424067180748692, 'epoch': 15.43}
+{'loss': 3.0243, 'grad_norm': 9.225627899169922, 'learning_rate': 0.0009417076861023538, 'epoch': 15.52}
+{'loss': 3.0172, 'grad_norm': 9.80518913269043, 'learning_rate': 0.0009410046999558062, 'epoch': 15.62}
+{'loss': 2.9937, 'grad_norm': 9.29837417602539, 'learning_rate': 0.000940297765928369, 'epoch': 15.71}
+{'loss': 2.8439, 'grad_norm': 8.273602485656738, 'learning_rate': 0.0009395868903485269, 'epoch': 15.81}
+{'loss': 2.766, 'grad_norm': 8.705810546875, 'learning_rate': 0.0009388720795800487, 'epoch': 15.9}
+{'loss': 2.9015, 'grad_norm': 12.178030967712402, 'learning_rate': 0.0009381533400219318, 'epoch': 16.0}
+{'eval_loss': 8.428837776184082, 'eval_map': 0.0001, 'eval_map_50': 0.0006, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0028, 'eval_map_large': 0.0001, 'eval_mar_1': 0.0015, 'eval_mar_10': 0.0018, 'eval_mar_100': 0.0018, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0025, 'eval_mar_large': 0.0017, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0004, 'eval_mar_100_Gloves': 0.009, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 6.9444, 'eval_samples_per_second': 21.312, 'eval_steps_per_second': 2.736, 'epoch': 16.0}
+{'loss': 3.1323, 'grad_norm': 9.448522567749023, 'learning_rate': 0.0009374306781083437, 'epoch': 16.1}
+{'loss': 2.8203, 'grad_norm': 9.848062515258789, 'learning_rate': 0.0009367041003085648, 'epoch': 16.19}
+{'loss': 2.7054, 'grad_norm': 18.172433853149414, 'learning_rate': 0.0009359736131269312, 'epoch': 16.29}
+{'loss': 3.0132, 'grad_norm': 9.131357192993164, 'learning_rate': 0.0009352392231027751, 'epoch': 16.38}
+{'loss': 2.9299, 'grad_norm': 8.905202865600586, 'learning_rate': 0.0009345009368103677, 'epoch': 16.48}
+{'loss': 2.7576, 'grad_norm': 9.660089492797852, 'learning_rate': 0.0009337587608588588, 'epoch': 16.57}
+{'loss': 2.8002, 'grad_norm': 12.758651733398438, 'learning_rate': 0.0009330127018922195, 'epoch': 16.67}
+{'loss': 2.9026, 'grad_norm': 7.539979457855225, 'learning_rate': 0.0009322627665891807, 'epoch': 16.76}
+{'loss': 2.5915, 'grad_norm': 8.442465782165527, 'learning_rate': 0.0009315089616631751, 'epoch': 16.86}
+{'loss': 2.9021, 'grad_norm': 8.289539337158203, 'learning_rate': 0.0009307512938622762, 'epoch': 16.95}
+{'eval_loss': 6.52086067199707, 'eval_map': 0.001, 'eval_map_50': 0.0042, 'eval_map_75': 0.0001, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0012, 'eval_mar_1': 0.0104, 'eval_mar_10': 0.0125, 'eval_mar_100': 0.0125, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0127, 'eval_map_Coverall': 0.005, 'eval_mar_100_Coverall': 0.0623, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.0208, 'eval_samples_per_second': 21.08, 'eval_steps_per_second': 2.706, 'epoch': 17.0}
+{'loss': 2.7622, 'grad_norm': 8.998353004455566, 'learning_rate': 0.0009299897699691376, 'epoch': 17.05}
+{'loss': 2.9493, 'grad_norm': 9.593323707580566, 'learning_rate': 0.000929224396800933, 'epoch': 17.14}
+{'loss': 3.2006, 'grad_norm': 9.986991882324219, 'learning_rate': 0.000928455181209295, 'epoch': 17.24}
+{'loss': 3.0403, 'grad_norm': 8.848798751831055, 'learning_rate': 0.0009276821300802534, 'epoch': 17.33}
+{'loss': 2.9237, 'grad_norm': 28.71648406982422, 'learning_rate': 0.0009269052503341736, 'epoch': 17.43}
+{'loss': 3.2498, 'grad_norm': 11.140202522277832, 'learning_rate': 0.0009261245489256954, 'epoch': 17.52}
+{'loss': 3.0806, 'grad_norm': 11.456730842590332, 'learning_rate': 0.0009253400328436698, 'epoch': 17.62}
+{'loss': 2.8433, 'grad_norm': 10.791952133178711, 'learning_rate': 0.0009245517091110969, 'epoch': 17.71}
+{'loss': 3.0829, 'grad_norm': 25.20777702331543, 'learning_rate': 0.0009237595847850627, 'epoch': 17.81}
+{'loss': 3.8955, 'grad_norm': 8.560866355895996, 'learning_rate': 0.0009229636669566768, 'epoch': 17.9}
+{'loss': 3.7071, 'grad_norm': 17.688180923461914, 'learning_rate': 0.0009221639627510075, 'epoch': 18.0}
+{'eval_loss': 7.038584232330322, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0, 'eval_mar_10': 0.0, 'eval_mar_100': 0.0, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.3447, 'eval_samples_per_second': 20.15, 'eval_steps_per_second': 2.587, 'epoch': 18.0}
+{'loss': 3.434, 'grad_norm': 9.816076278686523, 'learning_rate': 0.0009213604793270196, 'epoch': 18.1}
+{'loss': 3.414, 'grad_norm': 8.156905174255371, 'learning_rate': 0.0009205532238775088, 'epoch': 18.19}
+{'loss': 3.0846, 'grad_norm': 8.535090446472168, 'learning_rate': 0.0009197422036290386, 'epoch': 18.29}
+{'loss': 3.2939, 'grad_norm': 7.956906795501709, 'learning_rate': 0.0009189274258418747, 'epoch': 18.38}
+{'loss': 3.5804, 'grad_norm': inf, 'learning_rate': 0.0009181088978099203, 'epoch': 18.48}
+{'loss': 3.2308, 'grad_norm': 11.409056663513184, 'learning_rate': 0.0009172866268606513, 'epoch': 18.57}
+{'loss': 3.1491, 'grad_norm': 6.656423568725586, 'learning_rate': 0.0009164606203550497, 'epoch': 18.67}
+{'loss': 2.978, 'grad_norm': 13.179551124572754, 'learning_rate': 0.0009156308856875386, 'epoch': 18.76}
+{'loss': 3.5353, 'grad_norm': 6.67476749420166, 'learning_rate': 0.0009147974302859157, 'epoch': 18.86}
+{'loss': 3.1855, 'grad_norm': 8.560432434082031, 'learning_rate': 0.0009139602616112864, 'epoch': 18.95}
+{'eval_loss': 6.981216907501221, 'eval_map': 0.0, 'eval_map_50': 0.0002, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0014, 'eval_mar_10': 0.0015, 'eval_mar_100': 0.0015, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0017, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0001, 'eval_mar_100_Gloves': 0.0077, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.1401, 'eval_samples_per_second': 20.728, 'eval_steps_per_second': 2.661, 'epoch': 19.0}
+{'loss': 3.2064, 'grad_norm': 10.561418533325195, 'learning_rate': 0.0009131193871579975, 'epoch': 19.05}
+{'loss': 3.0489, 'grad_norm': 7.167513847351074, 'learning_rate': 0.0009122748144535704, 'epoch': 19.14}
+{'loss': 3.149, 'grad_norm': 6.270200729370117, 'learning_rate': 0.0009114265510586328, 'epoch': 19.24}
+{'loss': 2.9935, 'grad_norm': 8.680800437927246, 'learning_rate': 0.000910574604566852, 'epoch': 19.33}
+{'loss': 2.8915, 'grad_norm': 12.898701667785645, 'learning_rate': 0.000909718982604866, 'epoch': 19.43}
+{'loss': 3.1181, 'grad_norm': 10.792716026306152, 'learning_rate': 0.0009088596928322157, 'epoch': 19.52}
+{'loss': 3.0335, 'grad_norm': 9.630516052246094, 'learning_rate': 0.0009079967429412765, 'epoch': 19.62}
+{'loss': 2.9479, 'grad_norm': 18.493593215942383, 'learning_rate': 0.0009071301406571893, 'epoch': 19.71}
+{'loss': 2.9129, 'grad_norm': 8.736052513122559, 'learning_rate': 0.0009062598937377911, 'epoch': 19.81}
+{'loss': 2.8364, 'grad_norm': 8.980521202087402, 'learning_rate': 0.0009053860099735455, 'epoch': 19.9}
+{'loss': 3.0588, 'grad_norm': 12.737128257751465, 'learning_rate': 0.0009045084971874737, 'epoch': 20.0}
+{'eval_loss': 12.147726058959961, 'eval_map': 0.0, 'eval_map_50': 0.0001, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0003, 'eval_mar_10': 0.0003, 'eval_mar_100': 0.0003, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0003, 'eval_map_Coverall': 0.0001, 'eval_mar_100_Coverall': 0.0014, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.3249, 'eval_samples_per_second': 20.205, 'eval_steps_per_second': 2.594, 'epoch': 20.0}
+{'loss': 2.8932, 'grad_norm': 6.090200901031494, 'learning_rate': 0.0009036273632350838, 'epoch': 20.1}
+{'loss': 2.9, 'grad_norm': 8.475132942199707, 'learning_rate': 0.0009027426160043004, 'epoch': 20.19}
+{'loss': 2.9021, 'grad_norm': 12.683072090148926, 'learning_rate': 0.0009018542634153943, 'epoch': 20.29}
+{'loss': 2.9478, 'grad_norm': 7.14584493637085, 'learning_rate': 0.000900962313420912, 'epoch': 20.38}
+{'loss': 2.866, 'grad_norm': 11.53138256072998, 'learning_rate': 0.0009000667740056032, 'epoch': 20.48}
+{'loss': 2.84, 'grad_norm': 9.682100296020508, 'learning_rate': 0.0008991676531863507, 'epoch': 20.57}
+{'loss': 2.951, 'grad_norm': 8.4846773147583, 'learning_rate': 0.0008982649590120981, 'epoch': 20.67}
+{'loss': 2.6742, 'grad_norm': 9.155473709106445, 'learning_rate': 0.0008973586995637777, 'epoch': 20.76}
+{'loss': 2.8008, 'grad_norm': 11.134724617004395, 'learning_rate': 0.0008964488829542376, 'epoch': 20.86}
+{'loss': 2.9108, 'grad_norm': 14.238265037536621, 'learning_rate': 0.0008955355173281707, 'epoch': 20.95}
+{'eval_loss': 11.734130859375, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0002, 'eval_mar_10': 0.0002, 'eval_mar_100': 0.0002, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0008, 'eval_mar_large': 0.0001, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0009, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.2807, 'eval_samples_per_second': 20.328, 'eval_steps_per_second': 2.61, 'epoch': 21.0}
+{'loss': 3.211, 'grad_norm': 9.072900772094727, 'learning_rate': 0.0008946186108620398, 'epoch': 21.05}
+{'loss': 2.8406, 'grad_norm': 10.217491149902344, 'learning_rate': 0.0008936981717640061, 'epoch': 21.14}
+{'loss': 3.073, 'grad_norm': 8.795553207397461, 'learning_rate': 0.0008927742082738542, 'epoch': 21.24}
+{'loss': 2.8906, 'grad_norm': 6.350074768066406, 'learning_rate': 0.0008918467286629199, 'epoch': 21.33}
+{'loss': 2.6094, 'grad_norm': 14.395097732543945, 'learning_rate': 0.000890915741234015, 'epoch': 21.43}
+{'loss': 2.9619, 'grad_norm': 11.274543762207031, 'learning_rate': 0.0008899812543213531, 'epoch': 21.52}
+{'loss': 2.9758, 'grad_norm': 8.501056671142578, 'learning_rate': 0.0008890432762904757, 'epoch': 21.62}
+{'loss': 3.0624, 'grad_norm': 5.8792924880981445, 'learning_rate': 0.0008881018155381766, 'epoch': 21.71}
+{'loss': 2.8135, 'grad_norm': 10.658652305603027, 'learning_rate': 0.0008871568804924269, 'epoch': 21.81}
+{'loss': 3.0175, 'grad_norm': 11.222386360168457, 'learning_rate': 0.0008862084796122997, 'epoch': 21.9}
+{'loss': 2.9604, 'grad_norm': 15.010123252868652, 'learning_rate': 0.0008852566213878947, 'epoch': 22.0}
+{'eval_loss': 6.806530952453613, 'eval_map': 0.0006, 'eval_map_50': 0.0031, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0006, 'eval_mar_1': 0.0068, 'eval_mar_10': 0.0071, 'eval_mar_100': 0.0071, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0083, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0029, 'eval_mar_100_Mask': 0.0356, 'eval_runtime': 6.7163, 'eval_samples_per_second': 22.036, 'eval_steps_per_second': 2.829, 'epoch': 22.0}
+{'loss': 2.8175, 'grad_norm': 7.730146408081055, 'learning_rate': 0.000884301314340261, 'epoch': 22.1}
+{'loss': 2.8763, 'grad_norm': 8.956978797912598, 'learning_rate': 0.0008833425670213222, 'epoch': 22.19}
+{'loss': 3.1043, 'grad_norm': 7.580759048461914, 'learning_rate': 0.0008823803880137993, 'epoch': 22.29}
+{'loss': 2.9572, 'grad_norm': 13.959385871887207, 'learning_rate': 0.0008814147859311332, 'epoch': 22.38}
+{'loss': 2.7241, 'grad_norm': 7.576217174530029, 'learning_rate': 0.0008804457694174093, 'epoch': 22.48}
+{'loss': 2.7861, 'grad_norm': 9.161237716674805, 'learning_rate': 0.0008794733471472778, 'epoch': 22.57}
+{'loss': 2.9804, 'grad_norm': 8.730083465576172, 'learning_rate': 0.0008784975278258782, 'epoch': 22.67}
+{'loss': 2.9423, 'grad_norm': 9.906486511230469, 'learning_rate': 0.0008775183201887603, 'epoch': 22.76}
+{'loss': 2.7889, 'grad_norm': 9.400349617004395, 'learning_rate': 0.0008765357330018055, 'epoch': 22.86}
+{'loss': 2.6921, 'grad_norm': 12.893204689025879, 'learning_rate': 0.0008755497750611499, 'epoch': 22.95}
+{'eval_loss': 8.215272903442383, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0002, 'eval_mar_10': 0.0002, 'eval_mar_100': 0.0002, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0002, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0009, 'eval_runtime': 7.6124, 'eval_samples_per_second': 19.442, 'eval_steps_per_second': 2.496, 'epoch': 23.0}
+{'loss': 2.7036, 'grad_norm': 10.729715347290039, 'learning_rate': 0.0008745604551931042, 'epoch': 23.05}
+{'loss': 2.6397, 'grad_norm': 29.49884605407715, 'learning_rate': 0.0008735677822540749, 'epoch': 23.14}
+{'loss': 2.6899, 'grad_norm': 10.055961608886719, 'learning_rate': 0.0008725717651304856, 'epoch': 23.24}
+{'loss': 2.8171, 'grad_norm': 11.81326961517334, 'learning_rate': 0.0008715724127386971, 'epoch': 23.33}
+{'loss': 2.7432, 'grad_norm': 5.464470863342285, 'learning_rate': 0.0008705697340249275, 'epoch': 23.43}
+{'loss': 2.8469, 'grad_norm': 10.56546401977539, 'learning_rate': 0.0008695637379651719, 'epoch': 23.52}
+{'loss': 2.7917, 'grad_norm': 13.094228744506836, 'learning_rate': 0.0008685544335651225, 'epoch': 23.62}
+{'loss': 2.6977, 'grad_norm': 7.953390598297119, 'learning_rate': 0.0008675418298600883, 'epoch': 23.71}
+{'loss': 2.9493, 'grad_norm': 7.596860885620117, 'learning_rate': 0.0008665259359149131, 'epoch': 23.81}
+{'loss': 2.7999, 'grad_norm': 10.505510330200195, 'learning_rate': 0.0008655067608238952, 'epoch': 23.9}
+{'loss': 2.7588, 'grad_norm': 16.864688873291016, 'learning_rate': 0.0008644843137107057, 'epoch': 24.0}
+{'eval_loss': 6.635086536407471, 'eval_map': 0.0007, 'eval_map_50': 0.0013, 'eval_map_75': 0.001, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0015, 'eval_mar_1': 0.0038, 'eval_mar_10': 0.0038, 'eval_mar_100': 0.0038, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0006, 'eval_mar_large': 0.0044, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0037, 'eval_mar_100_Mask': 0.0192, 'eval_runtime': 7.1079, 'eval_samples_per_second': 20.822, 'eval_steps_per_second': 2.673, 'epoch': 24.0}
+{'loss': 2.6917, 'grad_norm': 9.867864608764648, 'learning_rate': 0.0008634586037283073, 'epoch': 24.1}
+{'loss': 2.7853, 'grad_norm': 6.926692008972168, 'learning_rate': 0.0008624296400588709, 'epoch': 24.19}
+{'loss': 2.8465, 'grad_norm': 10.805970191955566, 'learning_rate': 0.0008613974319136957, 'epoch': 24.29}
+{'loss': 3.0861, 'grad_norm': 8.829061508178711, 'learning_rate': 0.0008603619885331251, 'epoch': 24.38}
+{'loss': 2.7779, 'grad_norm': 14.451850891113281, 'learning_rate': 0.0008593233191864638, 'epoch': 24.48}
+{'loss': 2.5815, 'grad_norm': 9.272262573242188, 'learning_rate': 0.0008582814331718962, 'epoch': 24.57}
+{'loss': 2.6766, 'grad_norm': 10.111233711242676, 'learning_rate': 0.0008572363398164017, 'epoch': 24.67}
+{'loss': 2.6151, 'grad_norm': 14.242249488830566, 'learning_rate': 0.0008561880484756724, 'epoch': 24.76}
+{'loss': 3.1584, 'grad_norm': 9.85908317565918, 'learning_rate': 0.0008551365685340285, 'epoch': 24.86}
+{'loss': 2.8189, 'grad_norm': 9.44529914855957, 'learning_rate': 0.0008540819094043348, 'epoch': 24.95}
+{'eval_loss': 8.219337463378906, 'eval_map': 0.0003, 'eval_map_50': 0.0022, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0003, 'eval_mar_1': 0.0076, 'eval_mar_10': 0.0089, 'eval_mar_100': 0.0089, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0091, 'eval_map_Coverall': 0.0013, 'eval_mar_100_Coverall': 0.0447, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.3322, 'eval_samples_per_second': 20.185, 'eval_steps_per_second': 2.591, 'epoch': 25.0}
+{'loss': 2.9186, 'grad_norm': 13.508496284484863, 'learning_rate': 0.0008530240805279159, 'epoch': 25.05}
+{'loss': 2.9803, 'grad_norm': 13.027329444885254, 'learning_rate': 0.0008519630913744725, 'epoch': 25.14}
+{'loss': 2.8961, 'grad_norm': 25.960159301757812, 'learning_rate': 0.0008508989514419958, 'epoch': 25.24}
+{'loss': 3.6966, 'grad_norm': 10.953426361083984, 'learning_rate': 0.0008498316702566827, 'epoch': 25.33}
+{'loss': 3.3729, 'grad_norm': 15.653082847595215, 'learning_rate': 0.0008487612573728513, 'epoch': 25.43}
+{'loss': 2.9656, 'grad_norm': 8.731843948364258, 'learning_rate': 0.0008476877223728539, 'epoch': 25.52}
+{'loss': 2.8683, 'grad_norm': 10.375865936279297, 'learning_rate': 0.0008466110748669925, 'epoch': 25.62}
+{'loss': 2.9661, 'grad_norm': 8.38122272491455, 'learning_rate': 0.0008455313244934324, 'epoch': 25.71}
+{'loss': 2.865, 'grad_norm': 10.85461139678955, 'learning_rate': 0.0008444484809181155, 'epoch': 25.81}
+{'loss': 2.8148, 'grad_norm': 8.191426277160645, 'learning_rate': 0.000843362553834674, 'epoch': 25.9}
+{'loss': 2.7492, 'grad_norm': 19.375205993652344, 'learning_rate': 0.0008422735529643444, 'epoch': 26.0}
+{'eval_loss': 8.156658172607422, 'eval_map': 0.0002, 'eval_map_50': 0.0018, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0002, 'eval_mar_1': 0.002, 'eval_mar_10': 0.002, 'eval_mar_100': 0.002, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0021, 'eval_map_Coverall': 0.001, 'eval_mar_100_Coverall': 0.0102, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 6.9404, 'eval_samples_per_second': 21.324, 'eval_steps_per_second': 2.738, 'epoch': 26.0}
+{'loss': 2.8566, 'grad_norm': 7.65985631942749, 'learning_rate': 0.000841181488055879, 'epoch': 26.1}
+{'loss': 2.8272, 'grad_norm': 8.622092247009277, 'learning_rate': 0.0008400863688854596, 'epoch': 26.19}
+{'loss': 2.946, 'grad_norm': 19.414735794067383, 'learning_rate': 0.0008389882052566105, 'epoch': 26.29}
+{'loss': 2.7658, 'grad_norm': 6.600198745727539, 'learning_rate': 0.0008378870070001089, 'epoch': 26.38}
+{'loss': 2.782, 'grad_norm': 11.248560905456543, 'learning_rate': 0.0008367827839738988, 'epoch': 26.48}
+{'loss': 2.6925, 'grad_norm': 8.279876708984375, 'learning_rate': 0.000835675546063002, 'epoch': 26.57}
+{'loss': 2.6093, 'grad_norm': 10.96262264251709, 'learning_rate': 0.0008345653031794292, 'epoch': 26.67}
+{'loss': 2.7308, 'grad_norm': 8.83061408996582, 'learning_rate': 0.0008334520652620917, 'epoch': 26.76}
+{'loss': 2.8433, 'grad_norm': 9.596325874328613, 'learning_rate': 0.0008323358422767129, 'epoch': 26.86}
+{'loss': 2.9677, 'grad_norm': 8.044142723083496, 'learning_rate': 0.0008312166442157379, 'epoch': 26.95}
+{'eval_loss': 8.897153854370117, 'eval_map': 0.0, 'eval_map_50': 0.0001, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0003, 'eval_mar_10': 0.0003, 'eval_mar_100': 0.0003, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0003, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0001, 'eval_mar_100_Mask': 0.0014, 'eval_runtime': 7.1244, 'eval_samples_per_second': 20.774, 'eval_steps_per_second': 2.667, 'epoch': 27.0}
+{'loss': 2.7472, 'grad_norm': 6.588923454284668, 'learning_rate': 0.0008300944810982452, 'epoch': 27.05}
+{'loss': 2.7394, 'grad_norm': 17.687578201293945, 'learning_rate': 0.0008289693629698564, 'epoch': 27.14}
+{'loss': 2.6266, 'grad_norm': 6.897822856903076, 'learning_rate': 0.0008278412999026461, 'epoch': 27.24}
+{'loss': 2.7879, 'grad_norm': 8.798511505126953, 'learning_rate': 0.0008267103019950528, 'epoch': 27.33}
+{'loss': 2.8486, 'grad_norm': 9.390777587890625, 'learning_rate': 0.0008255763793717868, 'epoch': 27.43}
+{'loss': 2.5975, 'grad_norm': 9.911663055419922, 'learning_rate': 0.0008244395421837412, 'epoch': 27.52}
+{'loss': 2.7143, 'grad_norm': 6.8590593338012695, 'learning_rate': 0.0008232998006078997, 'epoch': 27.62}
+{'loss': 2.7012, 'grad_norm': 8.831888198852539, 'learning_rate': 0.0008221571648472472, 'epoch': 27.71}
+{'loss': 2.8227, 'grad_norm': 13.397000312805176, 'learning_rate': 0.0008210116451306762, 'epoch': 27.81}
+{'loss': 2.6392, 'grad_norm': 5.403591632843018, 'learning_rate': 0.0008198632517128967, 'epoch': 27.9}
+{'loss': 2.724, 'grad_norm': 8.522897720336914, 'learning_rate': 0.0008187119948743449, 'epoch': 28.0}
+{'eval_loss': 10.312323570251465, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0, 'eval_mar_10': 0.0, 'eval_mar_100': 0.0, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.4488, 'eval_samples_per_second': 19.869, 'eval_steps_per_second': 2.551, 'epoch': 28.0}
+{'loss': 2.6722, 'grad_norm': 10.78718376159668, 'learning_rate': 0.0008175578849210894, 'epoch': 28.1}
+{'loss': 2.7117, 'grad_norm': 7.0599045753479, 'learning_rate': 0.0008164009321847405, 'epoch': 28.19}
+{'loss': 2.5121, 'grad_norm': 9.580952644348145, 'learning_rate': 0.0008152411470223568, 'epoch': 28.29}
+{'loss': 2.7594, 'grad_norm': 7.652083396911621, 'learning_rate': 0.0008140785398163534, 'epoch': 28.38}
+{'loss': 2.6803, 'grad_norm': 17.172283172607422, 'learning_rate': 0.0008129131209744074, 'epoch': 28.48}
+{'loss': 2.5967, 'grad_norm': 12.07797908782959, 'learning_rate': 0.0008117449009293668, 'epoch': 28.57}
+{'loss': 2.7197, 'grad_norm': 15.508837699890137, 'learning_rate': 0.0008105738901391552, 'epoch': 28.67}
+{'loss': 2.6129, 'grad_norm': 10.206854820251465, 'learning_rate': 0.0008094000990866794, 'epoch': 28.76}
+{'loss': 2.6471, 'grad_norm': 8.189421653747559, 'learning_rate': 0.000808223538279735, 'epoch': 28.86}
+{'loss': 2.6961, 'grad_norm': 26.04841423034668, 'learning_rate': 0.0008070442182509126, 'epoch': 28.95}
+{'eval_loss': 9.143332481384277, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0, 'eval_mar_10': 0.0, 'eval_mar_100': 0.0, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 6.9606, 'eval_samples_per_second': 21.263, 'eval_steps_per_second': 2.73, 'epoch': 29.0}
+{'loss': 2.7956, 'grad_norm': 39.698402404785156, 'learning_rate': 0.0008058621495575032, 'epoch': 29.05}
+{'loss': 2.6506, 'grad_norm': 19.435495376586914, 'learning_rate': 0.0008046773427814041, 'epoch': 29.14}
+{'loss': 2.7184, 'grad_norm': 9.949197769165039, 'learning_rate': 0.0008034898085290239, 'epoch': 29.24}
+{'loss': 2.6533, 'grad_norm': 11.911443710327148, 'learning_rate': 0.0008022995574311875, 'epoch': 29.33}
+{'loss': 2.6577, 'grad_norm': 14.429738998413086, 'learning_rate': 0.0008011066001430412, 'epoch': 29.43}
+{'loss': 2.5886, 'grad_norm': 7.365768909454346, 'learning_rate': 0.0007999109473439569, 'epoch': 29.52}
+{'loss': 2.7448, 'grad_norm': 9.446375846862793, 'learning_rate': 0.0007987126097374371, 'epoch': 29.62}
+{'loss': 2.7055, 'grad_norm': 6.416179656982422, 'learning_rate': 0.0007975115980510186, 'epoch': 29.71}
+{'loss': 2.6913, 'grad_norm': 9.216525077819824, 'learning_rate': 0.0007963079230361765, 'epoch': 29.81}
+{'loss': 2.6567, 'grad_norm': 9.139830589294434, 'learning_rate': 0.0007951015954682281, 'epoch': 29.9}
+{'loss': 2.5608, 'grad_norm': 20.91944122314453, 'learning_rate': 0.0007938926261462366, 'epoch': 30.0}
+{'eval_loss': 10.766009330749512, 'eval_map': 0.0001, 'eval_map_50': 0.0004, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0001, 'eval_mar_1': 0.0003, 'eval_mar_10': 0.0003, 'eval_mar_100': 0.0003, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0003, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0006, 'eval_mar_100_Gloves': 0.0014, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.4766, 'eval_samples_per_second': 19.795, 'eval_steps_per_second': 2.541, 'epoch': 30.0}
+{'loss': 2.839, 'grad_norm': 11.656184196472168, 'learning_rate': 0.0007926810258929138, 'epoch': 30.1}
+{'loss': 2.6131, 'grad_norm': 17.024927139282227, 'learning_rate': 0.0007914668055545242, 'epoch': 30.19}
+{'loss': 2.5627, 'grad_norm': 8.035846710205078, 'learning_rate': 0.0007902499760007867, 'epoch': 30.29}
+{'loss': 2.6256, 'grad_norm': 13.594680786132812, 'learning_rate': 0.0007890305481247786, 'epoch': 30.38}
+{'loss': 2.8587, 'grad_norm': 6.614449977874756, 'learning_rate': 0.0007878085328428368, 'epoch': 30.48}
+{'loss': 2.7229, 'grad_norm': 10.188754081726074, 'learning_rate': 0.0007865839410944611, 'epoch': 30.57}
+{'loss': 2.6238, 'grad_norm': 6.598677158355713, 'learning_rate': 0.000785356783842216, 'epoch': 30.67}
+{'loss': 2.6651, 'grad_norm': 12.032377243041992, 'learning_rate': 0.0007841270720716317, 'epoch': 30.76}
+{'loss': 2.7874, 'grad_norm': 9.835493087768555, 'learning_rate': 0.0007828948167911073, 'epoch': 30.86}
+{'loss': 2.5545, 'grad_norm': 11.685420036315918, 'learning_rate': 0.000781660029031811, 'epoch': 30.95}
+{'eval_loss': 7.266998291015625, 'eval_map': 0.0002, 'eval_map_50': 0.0008, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0002, 'eval_mar_1': 0.0037, 'eval_mar_10': 0.006, 'eval_mar_100': 0.006, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0061, 'eval_map_Coverall': 0.0009, 'eval_mar_100_Coverall': 0.0298, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.241, 'eval_samples_per_second': 20.439, 'eval_steps_per_second': 2.624, 'epoch': 31.0}
+{'loss': 2.8627, 'grad_norm': 10.37289047241211, 'learning_rate': 0.0007804227198475822, 'epoch': 31.05}
+{'loss': 2.7295, 'grad_norm': 25.487422943115234, 'learning_rate': 0.0007791829003148312, 'epoch': 31.14}
+{'loss': 2.8747, 'grad_norm': 9.980460166931152, 'learning_rate': 0.0007779405815324423, 'epoch': 31.24}
+{'loss': 2.8469, 'grad_norm': 7.905307292938232, 'learning_rate': 0.000776695774621672, 'epoch': 31.33}
+{'loss': 2.6321, 'grad_norm': 7.551662921905518, 'learning_rate': 0.0007754484907260512, 'epoch': 31.43}
+{'loss': 2.71, 'grad_norm': 7.294394016265869, 'learning_rate': 0.0007741987410112847, 'epoch': 31.52}
+{'loss': 2.5757, 'grad_norm': 9.971963882446289, 'learning_rate': 0.000772946536665151, 'epoch': 31.62}
+{'loss': 2.625, 'grad_norm': 8.989657402038574, 'learning_rate': 0.000771691888897403, 'epoch': 31.71}
+{'loss': 2.5965, 'grad_norm': 8.174274444580078, 'learning_rate': 0.0007704348089396665, 'epoch': 31.81}
+{'loss': 2.8489, 'grad_norm': 11.316899299621582, 'learning_rate': 0.0007691753080453412, 'epoch': 31.9}
+{'loss': 2.8565, 'grad_norm': 18.279069900512695, 'learning_rate': 0.0007679133974894983, 'epoch': 32.0}
+{'eval_loss': 7.2678914070129395, 'eval_map': 0.0002, 'eval_map_50': 0.0008, 'eval_map_75': 0.0002, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0003, 'eval_mar_1': 0.0032, 'eval_mar_10': 0.0032, 'eval_mar_100': 0.0032, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0037, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0012, 'eval_mar_100_Mask': 0.016, 'eval_runtime': 7.144, 'eval_samples_per_second': 20.717, 'eval_steps_per_second': 2.66, 'epoch': 32.0}
+{'loss': 3.0323, 'grad_norm': 17.644729614257812, 'learning_rate': 0.0007666490885687807, 'epoch': 32.1}
+{'loss': 2.7215, 'grad_norm': 17.290742874145508, 'learning_rate': 0.0007653823926013015, 'epoch': 32.19}
+{'loss': 2.9973, 'grad_norm': 8.643062591552734, 'learning_rate': 0.0007641133209265423, 'epoch': 32.29}
+{'loss': 2.7476, 'grad_norm': 9.892962455749512, 'learning_rate': 0.0007628418849052523, 'epoch': 32.38}
+{'loss': 2.7642, 'grad_norm': 23.01627540588379, 'learning_rate': 0.0007615680959193468, 'epoch': 32.48}
+{'loss': 3.007, 'grad_norm': 23.2960262298584, 'learning_rate': 0.0007602919653718044, 'epoch': 32.57}
+{'loss': 2.8319, 'grad_norm': 12.95280647277832, 'learning_rate': 0.0007590135046865651, 'epoch': 32.67}
+{'loss': 2.8406, 'grad_norm': 9.214109420776367, 'learning_rate': 0.0007577327253084292, 'epoch': 32.76}
+{'loss': 2.7254, 'grad_norm': 5.877622127532959, 'learning_rate': 0.0007564496387029531, 'epoch': 32.86}
+{'loss': 2.7147, 'grad_norm': 10.37134075164795, 'learning_rate': 0.0007551642563563482, 'epoch': 32.95}
+{'eval_loss': 6.3520097732543945, 'eval_map': 0.0006, 'eval_map_50': 0.0031, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0001, 'eval_map_large': 0.0007, 'eval_mar_1': 0.0062, 'eval_mar_10': 0.0082, 'eval_mar_100': 0.0082, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0008, 'eval_mar_large': 0.0092, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0029, 'eval_mar_100_Gloves': 0.0412, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 7.2741, 'eval_samples_per_second': 20.346, 'eval_steps_per_second': 2.612, 'epoch': 33.0}
+{'loss': 2.8946, 'grad_norm': 23.602014541625977, 'learning_rate': 0.0007538765897753769, 'epoch': 33.05}
+{'loss': 2.5761, 'grad_norm': 14.943848609924316, 'learning_rate': 0.0007525866504872506, 'epoch': 33.14}
+{'loss': 2.8108, 'grad_norm': 6.391249179840088, 'learning_rate': 0.0007512944500395255, 'epoch': 33.24}
+{'loss': 2.8345, 'grad_norm': 17.969457626342773, 'learning_rate': 0.00075, 'epoch': 33.33}
+{'loss': 2.691, 'grad_norm': 7.11792516708374, 'learning_rate': 0.000748703311956611, 'epoch': 33.43}
+{'loss': 2.6115, 'grad_norm': 8.282618522644043, 'learning_rate': 0.0007474043975173299, 'epoch': 33.52}
+{'loss': 2.6754, 'grad_norm': 10.343720436096191, 'learning_rate': 0.0007461032683100587, 'epoch': 33.62}
+{'loss': 2.7472, 'grad_norm': 6.996613025665283, 'learning_rate': 0.0007447999359825263, 'epoch': 33.71}
+{'loss': 2.7274, 'grad_norm': 8.187047004699707, 'learning_rate': 0.0007434944122021837, 'epoch': 33.81}
+{'loss': 2.7868, 'grad_norm': 14.141355514526367, 'learning_rate': 0.0007421867086561001, 'epoch': 33.9}
+{'loss': 2.7017, 'grad_norm': 10.611611366271973, 'learning_rate': 0.0007408768370508576, 'epoch': 34.0}
+{'eval_loss': 6.450822353363037, 'eval_map': 0.0006, 'eval_map_50': 0.0029, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0004, 'eval_map_large': 0.0007, 'eval_mar_1': 0.0079, 'eval_mar_10': 0.0082, 'eval_mar_100': 0.0082, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0013, 'eval_mar_large': 0.0094, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0032, 'eval_mar_100_Mask': 0.0411, 'eval_runtime': 7.0406, 'eval_samples_per_second': 21.021, 'eval_steps_per_second': 2.699, 'epoch': 34.0}
+{'loss': 2.7483, 'grad_norm': 8.397298812866211, 'learning_rate': 0.0007395648091124475, 'epoch': 34.1}
+{'loss': 2.7703, 'grad_norm': 7.2684855461120605, 'learning_rate': 0.0007382506365861639, 'epoch': 34.19}
+{'loss': 2.9108, 'grad_norm': 7.563708782196045, 'learning_rate': 0.0007369343312364993, 'epoch': 34.29}
+{'loss': 2.7631, 'grad_norm': 9.432269096374512, 'learning_rate': 0.0007356159048470401, 'epoch': 34.38}
+{'loss': 2.7285, 'grad_norm': 6.6798577308654785, 'learning_rate': 0.0007342953692203593, 'epoch': 34.48}
+{'loss': 2.7858, 'grad_norm': 9.296534538269043, 'learning_rate': 0.0007329727361779124, 'epoch': 34.57}
+{'loss': 2.7354, 'grad_norm': 13.104275703430176, 'learning_rate': 0.0007316480175599309, 'epoch': 34.67}
+{'loss': 2.5475, 'grad_norm': 7.661524295806885, 'learning_rate': 0.0007303212252253162, 'epoch': 34.76}
+{'loss': 2.5339, 'grad_norm': 10.227890014648438, 'learning_rate': 0.0007289923710515338, 'epoch': 34.86}
+{'loss': 2.6344, 'grad_norm': 15.801687240600586, 'learning_rate': 0.0007276614669345069, 'epoch': 34.95}
+{'eval_loss': 7.012855529785156, 'eval_map': 0.0006, 'eval_map_50': 0.0022, 'eval_map_75': 0.0003, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0008, 'eval_mar_1': 0.0119, 'eval_mar_10': 0.0126, 'eval_mar_100': 0.0126, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0148, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0032, 'eval_mar_100_Mask': 0.063, 'eval_runtime': 6.9985, 'eval_samples_per_second': 21.148, 'eval_steps_per_second': 2.715, 'epoch': 35.0}
+{'loss': 2.7911, 'grad_norm': 8.421540260314941, 'learning_rate': 0.0007263285247885097, 'epoch': 35.05}
+{'loss': 2.5701, 'grad_norm': 9.44970989227295, 'learning_rate': 0.0007249935565460606, 'epoch': 35.14}
+{'loss': 2.7986, 'grad_norm': 10.373093605041504, 'learning_rate': 0.0007236565741578163, 'epoch': 35.24}
+{'loss': 3.0756, 'grad_norm': 8.2340726852417, 'learning_rate': 0.0007223175895924637, 'epoch': 35.33}
+{'loss': 2.7831, 'grad_norm': 11.886627197265625, 'learning_rate': 0.0007209766148366135, 'epoch': 35.43}
+{'loss': 2.7907, 'grad_norm': 16.820158004760742, 'learning_rate': 0.000719633661894692, 'epoch': 35.52}
+{'loss': 2.7229, 'grad_norm': 8.905838966369629, 'learning_rate': 0.0007182887427888351, 'epoch': 35.62}
+{'loss': 2.7813, 'grad_norm': 17.75295066833496, 'learning_rate': 0.0007169418695587791, 'epoch': 35.71}
+{'loss': 2.5586, 'grad_norm': 8.890765190124512, 'learning_rate': 0.0007155930542617542, 'epoch': 35.81}
+{'loss': 2.7497, 'grad_norm': 12.099926948547363, 'learning_rate': 0.0007142423089723757, 'epoch': 35.9}
+{'loss': 2.5716, 'grad_norm': 16.481191635131836, 'learning_rate': 0.0007128896457825364, 'epoch': 36.0}
+{'eval_loss': 7.903071403503418, 'eval_map': 0.0, 'eval_map_50': 0.0, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0, 'eval_mar_1': 0.0012, 'eval_mar_10': 0.0012, 'eval_mar_100': 0.0012, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0014, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0059, 'eval_runtime': 7.1158, 'eval_samples_per_second': 20.799, 'eval_steps_per_second': 2.67, 'epoch': 36.0}
+{'loss': 2.6457, 'grad_norm': 11.065505981445312, 'learning_rate': 0.000711535076801298, 'epoch': 36.1}
+{'loss': 2.5631, 'grad_norm': 15.133445739746094, 'learning_rate': 0.0007101786141547828, 'epoch': 36.19}
+{'loss': 2.7358, 'grad_norm': 9.227486610412598, 'learning_rate': 0.0007088202699860655, 'epoch': 36.29}
+{'loss': 2.6586, 'grad_norm': 8.666672706604004, 'learning_rate': 0.0007074600564550643, 'epoch': 36.38}
+{'loss': 2.4194, 'grad_norm': 10.650527000427246, 'learning_rate': 0.0007060979857384316, 'epoch': 36.48}
+{'loss': 2.5948, 'grad_norm': 10.986523628234863, 'learning_rate': 0.0007047340700294453, 'epoch': 36.57}
+{'loss': 2.6635, 'grad_norm': 8.0768461227417, 'learning_rate': 0.0007033683215379002, 'epoch': 36.67}
+{'loss': 2.5749, 'grad_norm': 7.445748805999756, 'learning_rate': 0.0007020007524899977, 'epoch': 36.76}
+{'loss': 2.5874, 'grad_norm': 7.773745536804199, 'learning_rate': 0.0007006313751282371, 'epoch': 36.86}
+{'loss': 2.596, 'grad_norm': 11.642289161682129, 'learning_rate': 0.0006992602017113058, 'epoch': 36.95}
+{'eval_loss': 10.271878242492676, 'eval_map': 0.0001, 'eval_map_50': 0.0003, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0001, 'eval_mar_1': 0.0008, 'eval_mar_10': 0.0008, 'eval_mar_100': 0.0008, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0009, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0003, 'eval_mar_100_Gloves': 0.0041, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0, 'eval_mar_100_Mask': 0.0, 'eval_runtime': 6.986, 'eval_samples_per_second': 21.185, 'eval_steps_per_second': 2.72, 'epoch': 37.0}
+{'loss': 2.802, 'grad_norm': 15.556999206542969, 'learning_rate': 0.0006978872445139694, 'epoch': 37.05}
+{'loss': 2.589, 'grad_norm': 6.368076801300049, 'learning_rate': 0.0006965125158269618, 'epoch': 37.14}
+{'loss': 2.776, 'grad_norm': 9.074165344238281, 'learning_rate': 0.0006951360279568757, 'epoch': 37.24}
+{'loss': 2.7893, 'grad_norm': 8.306143760681152, 'learning_rate': 0.0006937577932260515, 'epoch': 37.33}
+{'loss': 2.7079, 'grad_norm': 10.826311111450195, 'learning_rate': 0.000692377823972468, 'epoch': 37.43}
+{'loss': 2.8205, 'grad_norm': 13.957836151123047, 'learning_rate': 0.0006909961325496312, 'epoch': 37.52}
+{'loss': 2.8824, 'grad_norm': 11.726395606994629, 'learning_rate': 0.0006896127313264643, 'epoch': 37.62}
+{'loss': 3.0652, 'grad_norm': 9.332047462463379, 'learning_rate': 0.0006882276326871961, 'epoch': 37.71}
+{'loss': 2.7543, 'grad_norm': 9.88807201385498, 'learning_rate': 0.0006868408490312511, 'epoch': 37.81}
+{'loss': 2.7648, 'grad_norm': 7.940372467041016, 'learning_rate': 0.0006854523927731381, 'epoch': 37.9}
+{'loss': 2.8529, 'grad_norm': 55.340946197509766, 'learning_rate': 0.0006840622763423391, 'epoch': 38.0}
+{'eval_loss': 7.177182674407959, 'eval_map': 0.0001, 'eval_map_50': 0.0004, 'eval_map_75': 0.0, 'eval_map_small': 0.0, 'eval_map_medium': 0.0, 'eval_map_large': 0.0001, 'eval_mar_1': 0.0019, 'eval_mar_10': 0.0024, 'eval_mar_100': 0.0024, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0, 'eval_mar_large': 0.0028, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0004, 'eval_mar_100_Mask': 0.0119, 'eval_runtime': 7.4531, 'eval_samples_per_second': 19.858, 'eval_steps_per_second': 2.549, 'epoch': 38.0}
+{'loss': 2.9059, 'grad_norm': 7.730405807495117, 'learning_rate': 0.0006826705121831977, 'epoch': 38.1}
+{'loss': 2.7388, 'grad_norm': 9.231003761291504, 'learning_rate': 0.000681277112754808, 'epoch': 38.19}
+{'loss': 3.0677, 'grad_norm': 8.381638526916504, 'learning_rate': 0.0006798820905309036, 'epoch': 38.29}
+{'loss': 2.6223, 'grad_norm': 14.736307144165039, 'learning_rate': 0.0006784854579997446, 'epoch': 38.38}
+{'loss': 2.7357, 'grad_norm': 6.690957069396973, 'learning_rate': 0.0006770872276640075, 'epoch': 38.48}
+{'loss': 2.5681, 'grad_norm': 10.913663864135742, 'learning_rate': 0.0006756874120406714, 'epoch': 38.57}
+{'loss': 2.5623, 'grad_norm': 8.786806106567383, 'learning_rate': 0.0006742860236609076, 'epoch': 38.67}
+{'loss': 2.8313, 'grad_norm': 8.530466079711914, 'learning_rate': 0.0006728830750699666, 'epoch': 38.76}
+{'loss': 2.6624, 'grad_norm': 10.619604110717773, 'learning_rate': 0.0006714785788270658, 'epoch': 38.86}
+{'loss': 2.8026, 'grad_norm': 8.719161987304688, 'learning_rate': 0.0006700725475052772, 'epoch': 38.95}
+{'eval_loss': 6.387556552886963, 'eval_map': 0.0015, 'eval_map_50': 0.0051, 'eval_map_75': 0.0006, 'eval_map_small': 0.0, 'eval_map_medium': 0.0002, 'eval_map_large': 0.0018, 'eval_mar_1': 0.0115, 'eval_mar_10': 0.0115, 'eval_mar_100': 0.0115, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0019, 'eval_mar_large': 0.0132, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0074, 'eval_mar_100_Mask': 0.0575, 'eval_runtime': 7.2492, 'eval_samples_per_second': 20.416, 'eval_steps_per_second': 2.621, 'epoch': 39.0}
+{'loss': 2.615, 'grad_norm': 10.073149681091309, 'learning_rate': 0.0006686649936914151, 'epoch': 39.05}
+{'loss': 2.8155, 'grad_norm': 9.758875846862793, 'learning_rate': 0.0006672559299859228, 'epoch': 39.14}
+{'loss': 2.8717, 'grad_norm': 7.907464027404785, 'learning_rate': 0.0006658453690027604, 'epoch': 39.24}
+{'loss': 2.6767, 'grad_norm': 8.9010648727417, 'learning_rate': 0.0006644333233692916, 'epoch': 39.33}
+{'loss': 2.6235, 'grad_norm': 8.132079124450684, 'learning_rate': 0.0006630198057261709, 'epoch': 39.43}
+{'loss': 2.765, 'grad_norm': 8.242958068847656, 'learning_rate': 0.0006616048287272301, 'epoch': 39.52}
+{'loss': 2.7372, 'grad_norm': 12.547408103942871, 'learning_rate': 0.0006601884050393648, 'epoch': 39.62}
+{'loss': 2.5676, 'grad_norm': 9.695124626159668, 'learning_rate': 0.0006587705473424223, 'epoch': 39.71}
+{'loss': 2.6977, 'grad_norm': 7.389880180358887, 'learning_rate': 0.000657351268329086, 'epoch': 39.81}
+{'loss': 2.7822, 'grad_norm': 10.681896209716797, 'learning_rate': 0.000655930580704764, 'epoch': 39.9}
+{'loss': 2.8782, 'grad_norm': 12.504912376403809, 'learning_rate': 0.0006545084971874737, 'epoch': 40.0}
+{'eval_loss': 6.589665412902832, 'eval_map': 0.0026, 'eval_map_50': 0.0064, 'eval_map_75': 0.0023, 'eval_map_small': 0.0, 'eval_map_medium': 0.0004, 'eval_map_large': 0.003, 'eval_mar_1': 0.0104, 'eval_mar_10': 0.011, 'eval_mar_100': 0.011, 'eval_mar_small': 0.0, 'eval_mar_medium': 0.0006, 'eval_mar_large': 0.0127, 'eval_map_Coverall': 0.0, 'eval_mar_100_Coverall': 0.0, 'eval_map_Face_Shield': 0.0, 'eval_mar_100_Face_Shield': 0.0, 'eval_map_Gloves': 0.0, 'eval_mar_100_Gloves': 0.0, 'eval_map_Goggles': 0.0, 'eval_mar_100_Goggles': 0.0, 'eval_map_Mask': 0.0132, 'eval_mar_100_Mask': 0.0548, 'eval_runtime': 7.5021, 'eval_samples_per_second': 19.728, 'eval_steps_per_second': 2.533, 'epoch': 40.0}
+{'loss': 2.646, 'grad_norm': 25.640424728393555, 'learning_rate': 0.0006530850305077288, 'epoch': 40.1}
+{'loss': 2.9625, 'grad_norm': 21.903839111328125, 'learning_rate': 0.000651660193408425, 'epoch': 40.19}
+{'loss': 2.8161, 'grad_norm': 7.079800605773926, 'learning_rate': 0.000650233998644726, 'epoch': 40.29}
+{'loss': 2.7765, 'grad_norm': 34.1230354309082, 'learning_rate': 0.0006488064589839493, 'epoch': 40.38}
+{'loss': 2.723, 'grad_norm': 24.183183670043945, 'learning_rate': 0.0006473775872054521, 'epoch': 40.48}
+{'loss': 2.7264, 'grad_norm': 7.505205154418945, 'learning_rate': 0.0006459473961005168, 'epoch': 40.57}
+{'loss': 2.8524, 'grad_norm': 10.866947174072266, 'learning_rate': 0.0006445158984722358, 'epoch': 40.67}
+{'loss': 2.7266, 'grad_norm': 19.63431739807129, 'learning_rate': 0.0006430831071353984, 'epoch': 40.76}
